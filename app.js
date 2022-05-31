@@ -4,7 +4,6 @@ const nameInput = document.getElementById('nameInput');
 
 nameInput.addEventListener('input', () => {
     const name = nameInput.value;
-    console.log(name)
 });
 
 // set event listeners
