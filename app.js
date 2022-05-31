@@ -2,7 +2,9 @@
 
 const nameInput = document.getElementById('nameInput');
 const inputDisplay = document.getElementById('inputDisplay');
-const pronounInput = document.getElementById('pronounInput')
+const pronounInput = document.getElementById('pronounInput');
+const makeName = document.getElementById('nameButton');
+console.log(makeName);
 
 nameInput.addEventListener('input', () => {
     const name = nameInput.value;
@@ -11,8 +13,9 @@ nameInput.addEventListener('input', () => {
 
 pronounInput.addEventListener('input', () => {
     const pronoun = pronounInput.value;
-    console.log(pronoun)
 })
+
+
 
 // set event listeners
     // get info from user input
