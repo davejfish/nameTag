@@ -4,7 +4,6 @@ const nameInput = document.getElementById('nameInput');
 const inputDisplay = document.getElementById('inputDisplay');
 const pronounInput = document.getElementById('pronounInput');
 const makeName = document.getElementById('nameButton');
-console.log(makeName);
 
 nameInput.addEventListener('input', () => {
     const name = nameInput.value;
