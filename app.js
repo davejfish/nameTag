@@ -9,6 +9,11 @@ nameInput.addEventListener('input', () => {
     inputDisplay.textContent = name;
 });
 
+pronounInput.addEventListener('input', () => {
+    const pronoun = pronounInput.value;
+    console.log(pronoun)
+})
+
 // set event listeners
     // get info from user input
     // use user input to update state
