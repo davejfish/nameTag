@@ -2,6 +2,9 @@
 
 const nameInput = document.getElementById('nameInput');
 
+nameInput.addEventListener('input', () => {
+    console.log('---> entered event listener')
+});
 
 // set event listeners
     // get info from user input
