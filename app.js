@@ -5,6 +5,7 @@ const inputDisplay = document.getElementById('inputDisplay');
 
 nameInput.addEventListener('input', () => {
     const name = nameInput.value;
+    inputDisplay.textContent = name;
 });
 
 // set event listeners
