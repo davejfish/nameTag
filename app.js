@@ -2,6 +2,8 @@
 
 const nameInput = document.getElementById('nameInput');
 const inputDisplay = document.getElementById('inputDisplay');
+const pronounInput = document.getElementById('pronounInput')
+console.log(pronounInput)
 
 nameInput.addEventListener('input', () => {
     const name = nameInput.value;
