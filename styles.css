@@ -59,4 +59,5 @@ p {
     background-color: white;
     padding-bottom: 3px;
     padding-top: 3px;
+    min-height: 25px;
 }
