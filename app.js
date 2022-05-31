@@ -5,12 +5,16 @@ const inputDisplay = document.getElementById('inputDisplay');
 const pronounInput = document.getElementById('pronounInput');
 const makeName = document.getElementById('nameButton');
 
+const nametagColor = document.getElementById('color');
+
 
 makeName.addEventListener('click', () => {
     const name = nameInput.value;
     const pronoun = pronounInput.value;
     inputDisplay.textContent = `${name} (${pronoun})`;
 });
+
+
 
 
 // set event listeners
