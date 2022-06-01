@@ -16,13 +16,10 @@ makeName.addEventListener('click', () => {
     const pronoun = pronounInput.value;
 
     if ((name === '') && (pronoun === '')) {
-        console.log('entered first if')
         inputDisplay.textContent = ``;
     } else if ((name !== '') && (pronoun === '')) {
-        console.log('entered second if')
         inputDisplay.textContent = `${name}`;
     } else {
-        console.log('entered third if')
         inputDisplay.textContent = `${name} (${pronoun})`;
     }
  
