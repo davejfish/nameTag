@@ -1,6 +1,22 @@
 ## to do
 2 add option for superpower
 
+
+<img src='wireframe.png'>
+
+## setup html and css
+## grab name, pronoun, nametag color and animal with get element by id
+## verify each element with a console log
+## grab button with get element by id
+## verify button with console log
+## add an event listener to the button that updates the nametag with the values from their inputs
+
+
+
+
+
+
+
 ## working nametag finished
 
 
