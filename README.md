@@ -1,6 +1,6 @@
 ## to do
-2 add option for superpower
-
+add option for superpower
+add more colors
 
 <img src='wireframe.png'>
 
@@ -10,10 +10,6 @@
 ## grab button with get element by id
 ## verify button with console log
 ## add an event listener to the button that updates the nametag with the values from their inputs
-
-
-
-
 
 
 
