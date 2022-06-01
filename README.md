@@ -1,8 +1,7 @@
 ## to do
-1 add dropdown box for nametag color
 2 add option for superpower
 
-
+## working nametag finished
 
 
 ## The Golden Rule:
