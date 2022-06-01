@@ -50,6 +50,11 @@ p {
     border-radius: 8px;;
 }
 
+img {
+    height: 50px;
+    padding-top: 10px;
+}
+
 .hello {
     color: white;
     text-transform: capitalize;
