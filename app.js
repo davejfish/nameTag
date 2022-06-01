@@ -14,7 +14,18 @@ const animal = document.getElementById('animal');
 makeName.addEventListener('click', () => {
     const name = nameInput.value;
     const pronoun = pronounInput.value;
-    inputDisplay.textContent = `${name} (${pronoun})`;
+
+    if ((name === '') && (pronoun === '')) {
+        console.log('entered first if')
+        inputDisplay.textContent = ``;
+    } else if ((name !== '') && (pronoun === '')) {
+        console.log('entered second if')
+        inputDisplay.textContent = `${name}`;
+    } else {
+        console.log('entered third if')
+        inputDisplay.textContent = `${name} (${pronoun})`;
+    }
+ 
     nametag.style.backgroundColor = nametagColor.value;
     image.src = animal.value;
 });
